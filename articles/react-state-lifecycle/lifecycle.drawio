@@ -1,0 +1,115 @@
+<mxfile host="65bd71144e">
+    <diagram id="htbzdGqT0cw6U80LLGlp" name="Page-1">
+        <mxGraphModel dx="400" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="49" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry y="80" width="820" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="setText" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="text = &quot;Test Button&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="145" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="TestButton&lt;div&gt;Virtual DOM (#1)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="120" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="text = &quot;Test Button+&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="337.5" y="145" width="125" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80.5" y="200" as="sourcePoint"/>
+                        <mxPoint x="80.5" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="601" y="120" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="text = &quot;Test Button++&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="618.5" y="145" width="125" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260.65999999999997" y="160" as="sourcePoint"/>
+                        <mxPoint x="260" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="TestButton&lt;div&gt;Virtual DOM (#2)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="TestButton&lt;div&gt;Virtual DOM (#3)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="State（React内部で保持）" style="rounded=1;whiteSpace=wrap;html=1;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="280" width="720" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="240" as="sourcePoint"/>
+                        <mxPoint x="350" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="119.66" y="280" as="sourcePoint"/>
+                        <mxPoint x="119.66000000000022" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="useState&lt;div&gt;（初期化）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="225" width="70.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;useState&lt;/font&gt;&lt;/div&gt;&lt;div&gt;（&quot;Test Button&quot;取得）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="225" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="更新&lt;div&gt;(&quot;Test Button+&quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="225" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="280" as="sourcePoint"/>
+                        <mxPoint x="400" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;useState&lt;/font&gt;&lt;/div&gt;&lt;div&gt;（&quot;Test Button+&quot;取得）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="225" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="680" y="280" as="sourcePoint"/>
+                        <mxPoint x="680" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;useState&lt;/font&gt;&lt;/div&gt;&lt;div&gt;（&quot;Test Button++&quot;取得）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="225" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="setText" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540.66" y="160" as="sourcePoint"/>
+                        <mxPoint x="540" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;backgroundOutline=0;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="160" as="sourcePoint"/>
+                        <mxPoint x="600" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="更新&lt;div&gt;(&quot;Test Button++&quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;backgroundOutline=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="225" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
