@@ -6,6 +6,8 @@ topics: []
 published: false
 ---
 
+本記事は[こちらのブログ](https://dissection.skai273.dev/posts/2026/06/01/release-erflute-0.1.0/release-erflute-010/)の転用となります。
+
 ## はじめに
 
 少し時間が経ってしまいましたが、今年の2月にerfluteのデスクトップ版をリリースしましたので、その告知をします。  
@@ -61,24 +63,24 @@ eclipse版erfluteでは作成したER図をerm拡張子の独自ファイルに�
 表示デザインはeclipse版のerfluteとかなり近い形にしました。  
 
 <video autoplay loop muted playsinline>
-  <source src="/assets/2026/06/01/release-erflute-0.1.0/open-erm.mp4" type="video/mp4">
+  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/open-erm.mp4" type="video/mp4">
 </video>
 
 機能としての詳細は下記となります。  
 - テーブルの表示  
 基本的にeclipse版と同じ情報が網羅されています。  
-![table and relation](/assets/2026/06/01/release-erflute-0.1.0/table-and-relation.png)
+![table and relation](https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/table-and-relation.png)
 - リレーションとカージナリティの表示  
 こちらもelipse版と同じく、外部キー制約が存在するテーブルには参照を示すために線で関係を図示しています。  
 カージナリティも外部キーのカラムとのレコード数の対応関係を0:1、0:N、1:1、1:Nの4パターンで示しています。  
 - セルフリレーションの表示  
 カージナリティの一種ですが、参照する外部テーブルが自分自身の時に下記のように表示されます。  
-![self relation](/assets/2026/06/01/release-erflute-0.1.0/self-relation.png)
+![self relation](https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/self-relation.png)
 - ジェスチャー操作のサポート  
 これはeclipse版にはない新規機能ですが、マウスやトラックパッドによるジェスチャー操作で画面の移動や拡大縮小が行えるようになっています。  
 これにより直感的にER図を閲覧することが出来ます。  
 <video autoplay loop muted playsinline>
-  <source src="/assets/2026/06/01/release-erflute-0.1.0/gesture-operation.mp4" type="video/mp4">
+  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/gesture-operation.mp4" type="video/mp4">
 </video>
 
 ### Table Information、Relationship Informationのダイアログ表示
@@ -89,14 +91,14 @@ eclipse版erfluteでは作成したER図をerm拡張子の独自ファイルに�
 該当テーブルのヘッダー部分をダブルクリックすると表示されます。  
 eclipse版と同様に、テーブルの各カラム、共通カラム、複合ユニークキー、インデックスの情報などを確認することが可能です。  
 <video autoplay loop muted playsinline>
-  <source src="/assets/2026/06/01/release-erflute-0.1.0/show-table-info-dialog.mp4" type="video/mp4">
+  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/show-table-info-dialog.mp4" type="video/mp4">
 </video>
 
 - Relationship Information  
 該当リレーションをダブルクリックすると表示されます。  
 こちらもeclipse版と同じように外部キー制約で参照しているカラムやカージナリティの詳細などが確認可能です。  
 <video autoplay loop muted playsinline>
-  <source src="/assets/2026/06/01/release-erflute-0.1.0/show-relation-info-dialog.mp4" type="video/mp4">
+  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/show-relation-info-dialog.mp4" type="video/mp4">
 </video>
 
 これらを持ってテーブルとリレーションに関する最低限の情報はほとんど閲覧ができるようになっています。  
