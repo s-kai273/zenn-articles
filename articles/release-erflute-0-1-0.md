@@ -2,7 +2,7 @@
 title: "デスクトップ版erflute（0.1.0）をリリースしました！"
 emoji: "😎"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: ["erflute", "OSS"]
 published: false
 ---
 
