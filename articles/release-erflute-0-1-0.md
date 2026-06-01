@@ -61,10 +61,7 @@ eclipse版erfluteでは作成したER図をerm拡張子の独自ファイルに�
 デスクトップ版はこれと互換性を持たせる形で開発しているため、既存ermファイルからER図を表示させることが出来ます。  
 具体的には、ナビゲーションメニューよりファイルを選択することでテーブルスキーマのダイアグラムが表示されます。  
 表示デザインはeclipse版のerfluteとかなり近い形にしました。  
-
-<video autoplay loop muted playsinline>
-  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/open-erm.mp4" type="video/mp4">
-</video>
+![open erm](/articles/release-erflute-0-1-0/open-erm.gif)
 
 機能としての詳細は下記となります。  
 - テーブルの表示  
@@ -79,9 +76,7 @@ eclipse版erfluteでは作成したER図をerm拡張子の独自ファイルに�
 - ジェスチャー操作のサポート  
 これはeclipse版にはない新規機能ですが、マウスやトラックパッドによるジェスチャー操作で画面の移動や拡大縮小が行えるようになっています。  
 これにより直感的にER図を閲覧することが出来ます。  
-<video autoplay loop muted playsinline>
-  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/gesture-operation.mp4" type="video/mp4">
-</video>
+![gesture operation](/articles/release-erflute-0-1-0/gesture-operation.gif)
 
 ### Table Information、Relationship Informationのダイアログ表示
 
@@ -90,16 +85,12 @@ eclipse版erfluteでは作成したER図をerm拡張子の独自ファイルに�
 - Table Information  
 該当テーブルのヘッダー部分をダブルクリックすると表示されます。  
 eclipse版と同様に、テーブルの各カラム、共通カラム、複合ユニークキー、インデックスの情報などを確認することが可能です。  
-<video autoplay loop muted playsinline>
-  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/show-table-info-dialog.mp4" type="video/mp4">
-</video>
+![show table info dialog](/articles/release-erflute-0-1-0/show-table-info-dialog.gif)
 
 - Relationship Information  
 該当リレーションをダブルクリックすると表示されます。  
 こちらもeclipse版と同じように外部キー制約で参照しているカラムやカージナリティの詳細などが確認可能です。  
-<video autoplay loop muted playsinline>
-  <source src="https://dissection.skai273.dev/assets/2026/06/01/release-erflute-0.1.0/show-relation-info-dialog.mp4" type="video/mp4">
-</video>
+![show relation info dialog](/articles/release-erflute-0-1-0/show-relation-info-dialog.gif)
 
 これらを持ってテーブルとリレーションに関する最低限の情報はほとんど閲覧ができるようになっています。  
 
