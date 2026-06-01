@@ -3,7 +3,7 @@ title: "デスクトップ版erflute（0.1.0）をリリースしました！"
 emoji: "😎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["erflute", "OSS"]
-published: false
+published: true
 ---
 
 本記事は[こちらのブログ](https://dissection.skai273.dev/posts/2026/06/01/release-erflute-0.1.0/release-erflute-010/)の転用となります。
